@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  background-color: #E5E5E5;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1.15rem;
+}
+
+
+img {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.w-50p {
+  width: 50%;
+}
+
+/* color */
+.color--primary {
+  color: #562eff;
+}
+
+.color--danger {
+  color: #ff4a60;
+}
+
+.color--black {
+  color: #000;
+}
+
+.color--white {
+  color: #fff;
+}
+
+.color--light {
+  color: #a2a2a2;
+}
+
+.color--danger-bg {
+  color: #ffe4e8;
+}
+
+.section {
+  max-width: 1440px;
+  margin: 1.5rem auto;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1.5rem 0;
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+@media screen and (min-width: 500px) {
+  .section {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}

@@ -1,0 +1,55 @@
+.latest-course__heading {
+  margin-bottom: 1.5rem;
+}
+
+.latest-courses {
+  grid-template-columns: 1fr;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.course {
+  margin-bottom: 3rem;
+}
+
+.course__other-info {
+  justify-content: space-between;
+  /* font-size: .9rem; */
+}
+
+.course__author {
+  margin-top: 0;
+}
+
+.course__rating {
+  color: #ffc014;
+}
+
+.rating__text {
+  color: #a2a2a2;
+}
+
+.course__duration {
+  background-color: #ffe4e8;
+  color: #ed6b4f;
+  padding: 0.2rem 1rem;
+  border-radius: 1rem;
+}
+
+@media screen and (min-width: 750px) {
+  .latest-courses {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .latest-courses {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .course__other-info {
+    font-size: .8rem;
+  }
+}

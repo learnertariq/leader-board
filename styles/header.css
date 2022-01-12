@@ -1,0 +1,36 @@
+.header {
+  background-color: #562eff;
+  padding: 1rem;
+}
+
+.nav {
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.brand__logo {
+  width: 40px;
+}
+
+.brand__name,
+.nav__link {
+  color: #fff;
+}
+
+.nav__brand {
+  /* gap: 1rem */
+}
+
+.profile-img {
+  width: 51px;
+}
+
+.nav__links {
+  gap: 2rem;
+}
+
+.nav__link {
+  text-decoration: none;
+  font-size: 0.9rem;
+}
